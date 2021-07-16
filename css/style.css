@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+a, a:hover{                                     
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+
+/*********************************/
+    /*** CSS code starts ***/
+/*********************************/
+
+/* global css code goes here*/
+
+/* global css code ends here*/
+
+/* header section starts */
+.header{
+    width: 100%;
+    background: url(../images/header-bg.png) center top no-repeat;
+    background-size: cover;
+    padding: 16px 0px 0px;
+}
+.header .container{
+    padding: 0px;
+}
+.header .header-menu{
+    width: 100%;
+}
+.header .header-menu .header-contact{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+.header .header-menu .header-contact p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d2514;
+    text-transform: capitalize;
+    margin: 7px 0px 0px 10px;
+}
+.header .header-menu .bg-light{
+    background: transparent !important;
+    margin-top: 26px;
+}
+.header .header-menu .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #8D562F;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+}
+.header .header-menu .navbar-light .navbar-nav .nav-link{
+    color: #3d2514;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    margin-left: 24px;
+}
+.header .header-menu .navbar-light .navbar-nav .nav-link:hover, .header .header-menu .navbar-light .navbar-nav .nav-link:focus{
+    transition: .2s;
+    color: #8D562F;
+}
+.navbar-light .navbar-brand {
+    position: relative;
+    top: -50px;
+}
+
+.header .header-banner{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.header .header-banner .inner-banner{
+    width: 100%;
+    margin-top: 110px;
+}
+.header .header-banner .inner-banner .bordered-text{
+    width: 60%;
+    height: 48px;
+    text-align: center;
+    border: 2px dashed #3d2514;
+    margin: 0px 0px 5px 0px;
+}
+.header .header-banner .inner-banner p{
+    font-size: 22px;
+    margin: 12px 0px;
+    font-family: 'Bebas Neue';
+    color: #3d2514;
+    
+}
+.header .header-banner .inner-banner h1{
+    font-size: 115px;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+    text-shadow: 6px 7px #fee8bc;
+    margin: 5px 0px 0px 0px;
+}
+.header .header-banner .inner-banner h3{
+    font-size: 60px;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+    text-shadow: 4px 5px #fee8bc;
+    margin: 0px 0px 5px 0px;
+}
+.header .header-banner .banner-img{
+    width: 100%;
+    margin-top: 30px;
+}
+.header .header-banner .banner-img img{
+    width: 100%;
+}
+/* header section ends */
+
+/* portfolio section starts */
+.portfolio{
+    width: 100%;
+    margin: 60px 0px;
+}
+.portfolio .port-1{
+    width: 100%;
+}
+.portfolio .port-1 h5{
+    position: absolute;
+    padding: 30px 0px 0px 24px;
+    color: #fff;
+    font-size: 26px;
+}
+.portfolio .port-1 h2{
+    position: absolute;
+    padding: 60px 0px 0px 24px;
+    color: #fff;
+    font-size: 40px;
+}
+.portfolio .port-1 img{
+    width: 100%;
+}
+.portfolio .port-2{
+    width: 100%;
+}
+.portfolio .port-2 h5{
+    position: absolute;
+    padding: 30px 0px 0px 24px;
+    color: #fff;
+    font-size: 26px;
+}
+.portfolio .port-2 h2{
+    position: absolute;
+    padding: 65px 0px 0px 24px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+}
+.portfolio .port-2 img{
+    width: 100%;
+}
+.portfolio .port-3{
+    width: 100%;
+    margin-top: 37px;
+}
+.portfolio .port-3 h5{
+    position: absolute;
+    padding: 30px 0px 0px 24px;
+    color: #fff;
+    font-size: 26px;
+}
+.portfolio .port-3 h2{
+    position: absolute;
+    padding: 60px 0px 0px 24px;
+    color: #fff;
+    font-size: 40px;
+}
+.portfolio .port-3 img{
+    width: 100%;
+}
+/* portfolio section ends */
+
+/* products section starts */
+.products{
+    width: 100%;
+}
+.products .title{
+    width: 100%;
+    text-align: center;
+    margin: 26px 0px;
+}
+.products .title span{
+    width: 100%;
+    font-family: 'Bebas Neue';
+    font-size: 28px;
+    color: #3d2514;
+    background: #ffc045;
+    padding: 10px 20px 5px;
+    text-align: center;
+}
+.products .title h2{
+    margin-top: 35px;
+    font-size: 52px;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+}
+.products .title p{
+    margin-top: 15px;
+    padding: 0px 125px;
+    color: #3d2514;
+    font-weight: 500;
+}
+
+.products .products-item{
+    width: 100%;
+    text-align: center;
+}
+.products .products-item img{
+    width: 100%;
+}
+.products .products-item h2{
+    font-size: 42px;
+    color: #3d2514;
+}
+.products .products-item p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #3d2514;
+}
+.products .products-item .btn{
+    border-radius: unset;
+    background: #bf2222;
+    font-size: 18px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    line-height: 1.7em;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+.products .products-item .btn:hover, .products .products-item .btn:focus{
+    background: #bf2222da;
+}
+/* products section ends */
+
+/* Events section starts */
+.event{
+    width: 100%;
+}
+.event .owl-carousel{
+    width: 100%;
+    margin: 160px 0px 50px;
+    box-shadow: 10px 5px 43px -10px;
+}
+.event .owl-carousel .inner-event{
+    width: 100%;
+    padding: 20px 15px 0px 50px;
+}
+.event .owl-carousel .inner-event h5{
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #3d2514;
+    margin: 40px 0px 0px 0px;
+}
+.event .owl-carousel .inner-event h2{
+    font-size: 42px;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+    margin: 10px 0px 0px 0px;
+}
+.event .owl-carousel .inner-event p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #3d2514;
+    margin: 20px 0px 0px 0px;
+}
+.event .owl-carousel .event-img{
+    width: 100%;
+    padding: 30px;
+}
+.event .owl-carousel .event-img img{
+    width: 100%;
+}
+.event .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0;
+    margin: -75px 0px 0px 50px;
+    position: absolute;
+}
+.event .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+.event .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 4px;
+}
+.event .owl-theme .owl-dots .owl-dot:hover span{
+    background: #ffc045;
+}
+/* Events section ends */
+
+/* Booking section starts */
+.booking{
+    width: 100%;
+    margin: 40px 0px 0px;
+}
+.booking .title{
+    width: 100%;
+    text-align: center;
+    margin: 60px 0px;
+}
+.booking .title h5{
+    font-size: 28px;
+    color: #3d2514;
+}
+.booking .title h2{
+    font-size: 52px;
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+}
+.booking .main-form{
+    width: 100%;
+}
+.booking .main-form .form-group{
+    margin-bottom: 30px !important;
+}
+.booking .main-form .form-group .form-control{
+    height: 68px;
+    font-size: 22px;
+    font-family: 'Bebas Neue';
+    color: #3d2514;
+    padding: 0px 30px;
+    border: 1px solid #bebebe;
+}
+.booking .main-form .form-group .form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(61 37 20 / 25%);
+}
+.booking .main-form .form-group .btn{
+    width: 100%;
+    height: 68px;
+    background: #bf2222;
+    font-size: 22px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+}
+.booking .main-form .form-group .btn:hover, .booking .main-form .form-group .btn:focus{
+    background: #bf2222da;
+}
+.booking .booking-img-1{
+    position: absolute;
+    left: 0px;
+    margin: -560px 0px;
+}
+.booking .booking-img-2{
+    position: absolute;
+    margin: -345px -260px;
+}
+.booking .booking-img-3{
+    position: absolute;
+    right: 0px;
+    margin: -320px 0px;
+}
+.booking span img{
+    width: 100%;
+}
+/* Booking section ends */
+
+/* Footer section starts */
+.footer{
+    width: 100%;
+    margin: 120px 0px 50px;
+}
+.footer .bg{
+    background: url(../images/footer-bg.png) center top no-repeat;
+    background-size: cover;
+}
+.footer .inner-footer{
+    width: 100%;
+    margin: 65px 30px 0px;
+}
+.footer .inner-footer img{
+    width: auto;
+}
+.footer .inner-footer p{
+    color: #fff;
+    line-height: 30px;
+    padding-top: 50px;
+}
+.footer .inner-footer h6{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 190px;
+}
+
+.footer .contact-footer{
+    width: 100%;
+}
+.footer .contact-footer .contact-info{
+    margin: 235px 0px 68px 230px;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    color: #fff;
+}
+.footer .contact-footer .contact-info img{
+    width: auto;
+    padding-right: 36px;
+}
+.footer .contact-footer .contact-info .info-item{
+    padding-bottom: 20px;
+}
+.footer .contact-footer .social-icons{
+    text-align: end;
+    margin: 142px 0px 0px;
+}
+.footer .contact-footer .social-icons ul{
+    display: block;
+    margin: 0px 5px 16px 0px;
+}
+.footer .contact-footer .social-icons li{
+    display: inline-block;
+}
+.footer .contact-footer .social-icons li a{
+    margin-right: 7px;
+    color: #ffffffda;
+}
+
+/* Footer section ends */
